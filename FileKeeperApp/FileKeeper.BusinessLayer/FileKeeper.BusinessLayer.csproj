@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileKeeper.BusinessLayer.Contracts\FileKeeper.BusinessLayer.Contracts.csproj" />
+    <ProjectReference Include="..\FileKeeper.DataAccess.Contracts\FileKeeper.DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\FileKeeper.DataAccess\FileKeeper.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
